@@ -1,8 +1,9 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-size: 120%;
+  width: 100%;
 }
 
 body {
@@ -44,4 +45,13 @@ body {
 
 .read-the-docs {
   color: #888;
+}
+
+.song {
+  border-block: #888 solid 1px;
+}
+
+.controls {
+  position: fixed;
+  bottom: 0;
 }
