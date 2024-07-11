@@ -49,6 +49,7 @@ body {
 
 .song {
   border-block: #888 solid 1px;
+  padding: 1em;
 }
 
 .controls {
