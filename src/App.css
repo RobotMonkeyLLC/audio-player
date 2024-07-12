@@ -7,7 +7,6 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   background-color: #282c34;
   color: #fff;
 }
@@ -55,4 +54,7 @@ body {
 .controls {
   position: fixed;
   bottom: 0;
+}
+.active {
+  color: #61dafb;
 }
