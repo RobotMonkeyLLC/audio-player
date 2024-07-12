@@ -24,8 +24,7 @@ export default function Controls({setPlaying, playing, currentSong, currentId,se
                 </button>
                 <button className='btn btn-primary' onClick={()=>playSong(currentId+1)}><i className="fa-solid fa-forward"></i></button>
                 
-                <audio>
-                    <source src={currentSong} type="audio/mpeg"/>
+                <audio src={currentSong}>                    
                 </audio>
             </div>
             <div className="col-4 d-flex justify-content-center volume">
