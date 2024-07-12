@@ -17,6 +17,8 @@ function App() {
   useEffect(() => {
     fetch(baseURL+'/sound/songs').then((response) => response.json()).then((data) => {
       setSongs(data.songs)
+      setCurrentId(data.songs[0].id)
+      setCurrentSong(baseURL+data.songs[0].url)
       console.log(songs)
     } )
   }, [])

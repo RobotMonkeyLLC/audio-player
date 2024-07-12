@@ -58,3 +58,9 @@ body {
 .active {
   color: #61dafb;
 }
+.volume-container {
+  align-content: center;
+}
+.volume-bar {
+  height: 50%;
+}
